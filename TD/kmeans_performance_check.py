@@ -28,6 +28,8 @@ def main():
     # Some magic that tests the accuracy and is not
     # mentioned here
 
+    print(f"Variance : {cloud.intracluster_variance()}")
+
 
 if __name__ == "__main__":
     main()
